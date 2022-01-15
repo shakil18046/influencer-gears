@@ -1,0 +1,243 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 1370px;
+  margin: auto;
+}
+html {
+  font-size: 10px;
+}
+:root {
+  --product-title-color: #18191f;
+  --hero-heading-color: #3a3a3a;
+}
+/* nav-area */
+.nav-area {
+  padding: 4rem 0;
+}
+.logo img {
+  width: 20%;
+}
+
+/* --hero-area-start- */
+.hero-area {
+  padding: 6rem 0;
+}
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero-content-wrapper {
+  display: flex;
+  align-items: center;
+}
+.hero-heading {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 62px;
+  color: var(--hero-heading-color);
+  margin: 0;
+}
+.hero-para {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 85%;
+  padding: 1rem;
+  color: #3a3a3a;
+}
+.hero-btn {
+  background: #eb1958ea;
+  padding: 1.2rem 3.5rem;
+  font-size: 14px;
+  border-radius: 5rem;
+  color: #efe7e7;
+  transition: all 0.3s ease-in-out;
+}
+.arrow {
+  width: 13px;
+  transform: translate(5px, 2px);
+}
+.hero-btn:hover {
+  transform: translateY(-10px);
+}
+.hero-image-wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-image-wrapper img {
+  width: 80%;
+}
+/* --hero-area-end- */
+
+/* --company-logo-area-start-- */
+.company-logo {
+  padding: 3rem 0;
+}
+.product-collection-area {
+  padding: 6rem 0;
+}
+.company-logo-wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 20px 20px;
+}
+.cm-logo {
+  width: 45%;
+}
+/* --company-logo-area-end-- */
+/* product-collection-area-- */
+.product-collection-heading{
+  font-weight: 600;
+font-size: 28px;
+line-height: 70px;
+text-align: center;
+
+
+color: #3A3A3A;
+padding-bottom: 3rem;
+}
+.product-collection-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.rating-img ul {
+  margin: 0;
+}
+.rating-img ul li {
+  display: inline-block;
+  margin: 0;
+}
+.product-item {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.product-details {
+  color: #787885;
+  font-size: 14px;
+  width: 50%;
+}
+.product-title {
+  color: var(--product-title-color);
+  font-size: 22px;
+  font-weight: 500;
+}
+.product-price {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.product-rating {
+  display: flex;
+}
+.rating-img ul li img {
+  width: 16px;
+}
+
+.rating-tag {
+  margin-left: 10px;
+  color: #5e6366;
+  font-size: 14px;
+}
+.product-btn a {
+  font-size: 1.4rem;
+  color: #e02c6d;
+}
+.product-btn img {
+  width: 14px;
+  transform: translateY(2px);
+}
+.product-btn {
+  text-align: right;
+  padding-top: 30px;
+}
+/* featured-area-start-- */
+.featured-area {
+  padding: 6rem 1rem 6rem 1rem;
+}
+.featured-wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 0 30px;
+}
+.featured-content-heading {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+.featured-paragraph {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #6c6c6c;
+}
+.featured-btn a {
+  padding: 1.3rem 3rem;
+  background: #e02c6d;
+  font-size: 16px;
+  color: #ffffff;
+}
+.featured-btn img {
+  width: 14px;
+  transform: translateY(3px);
+}
+.featured-content {
+  display: flex;
+  flex-direction: column;
+}
+.featured-image {
+  display: flex;
+  align-items: center;
+}
+/* ---footer-area-start-- */
+.footer-area {
+  padding: 3rem 0;
+  background-color: #0a0826;
+}
+.footer-content h4 {
+  color: #ffffff;
+  font-size: 24px;
+}
+.footer-content p {
+  color: #d9dbe1;
+  font-size: 14px;
+}
+.footer-content {
+  text-align: center;
+}
+.social-media-list {
+  display: inline-block;
+}
+.social-media-list a {
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.social-media-list:not(:last-child) {
+  margin-right: 1rem;
+}
+.social-media-list a:hover {
+  transform: rotate(-360deg);
+}

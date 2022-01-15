@@ -1,0 +1,137 @@
+@media screen and (max-width: 768px) {
+  .logo img {
+    width: 30%;
+  }
+  .hero-heading {
+    font-size: 39px;
+    line-height: 49px;
+  }
+  .hero-para {
+    width: 100%;
+  }
+  /* product-list- */
+  .product-title {
+    font-size: 20px;
+  }
+  .product-price {
+    font-size: 18px;
+  }
+  .rating-tag {
+    font-size: 13px;
+  }
+  .rating-img ul li img {
+    width: 15px;
+  }
+  .product-details {
+    color: #787885;
+    font-size: 14px;
+    width: 100%;
+  }
+  .featured-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 30px;
+  }
+  .featured-content-heading {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #0a0826;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-area {
+    padding: 5rem 0 0 0;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 35%;
+  }
+  .hero-area {
+    padding: 6rem 1rem 6rem 1rem;
+  }
+  .hero-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-heading {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .hero-para {
+    width: 90%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .hero-btn-wrapper {
+    text-align: center;
+  }
+  .hero-content-area {
+    padding-bottom: 5rem;
+  }
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* company-logo-area-start */
+  .company-logo-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  .cm-logo {
+    width: 65%;
+  }
+  /* product-list-area-- */
+  .product-collection-heading{
+    font-size: 24px;
+  }
+  .product-collection-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0 30px;
+  }
+  .product-item {
+    margin-bottom: 5rem;
+  }
+  .product-collection-area {
+    padding: 6rem 1rem 6rem 1rem;
+  }
+  /* featured-area- */
+  .featured-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featured-content-heading {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    color: #0a0826;
+    text-align: center;
+  }
+  .featured-paragraph {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .featured-btn {
+    text-align: center;
+  }
+  .featured-btn a {
+    padding: 1.3rem 3rem;
+    background: #e02c6d;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .featured-btn img {
+    width: 12px;
+    transform: translateY(2px);
+  }
+  .featured-content {
+    padding-top: 3rem;
+  }
+}
